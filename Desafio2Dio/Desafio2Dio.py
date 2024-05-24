@@ -95,7 +95,7 @@ def listar_contas(contas):
             Titular:\t{conta['usuario']['nome']}
         """
         print("=" * 100)
-        print(textwrap.dedent(linha))
+        lprint(textwrap.dedent(linha))
 
 def main():
     LIMITE_SAQUES = 3
@@ -153,3 +153,5 @@ def main():
 
 
 main()
+#Não tem muitas implementações, como depositar e sacar para
+    #cada conta, mas não vou fazer, pois não é o foco do exercício.
