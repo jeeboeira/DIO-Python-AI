@@ -1,0 +1,6 @@
+#INTERFACE
+class Transacao:
+    def __init__(self) -> None:
+        pass
+
+    def registrar(conta : Conta):
